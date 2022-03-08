@@ -42,7 +42,7 @@ html, body {
 }
 body {
     font-family: 'GmarketSansMedium';
-    background-image: url("img/배경.jpg");    
+    background-color: #ffffc0;    
     background-size: cover;
     color: #1fda73;
 }

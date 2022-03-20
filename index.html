@@ -6,11 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="reset.css">
     <link rel="stylesheet" type="text/css" href="1.css">
+    <script src="1.js" defer></script>
     <title>To Do List!!</title>
 </head>
 <body>
-    <section id="content">
-        <div class="intro">
+    <nav id="navbar">
+        <div class="navbar__logo">
+          <a>ToDoList</a>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__menu__item active" data-link="#home">Home</li>
+        <li class="navbar__menu__item" data-link="#about">About</li>
+        <li class="navbar__menu__item" data-link="#skills">Skills</li>
+        <li class="navbar__menu__item" data-link="#work">My work</li>
+        <li class="navbar__menu__item" data-link="#contact">contact</li>
+      </ul>
+      </nav>
+
+        <section class="intro">
             <div class="intro_saying">"TO DO LIST!"</div>
             <div class="explain">
                 <div class="quotes">
@@ -20,35 +33,31 @@
                     이<span> ToDoList</span>는<br>당신에게 더 나은 미래를 만들어 줄겁니다.<br>하루하루 <span>지치지 </span>말고  <span>지키며</span> 함께 해봐요.
                 </p>
             </div>
-        </div>
-        <div class="a">
-            Memo
-        </div>
-        
-    <section id="main">
-        <div class="leftlist">
-            AM LIST
-        </div>
-        <div class="rightlist">
-            PM LIST
-        </div>
-        <div class="amlist">
-            LIST
-        </div>
-        <div class="fmlist">
-            LIST
-        </div>
+        </section>
+       
+    <section id="content">
+        <div class="input">
+        <input type="text" id="write"/>        
+        <button class="bt1">
+            할일 추가
+        </button>
+        <button class="bt2">
+            메모 추가
+        </button>
+    </div>
+    <div class="name">
+        <h1 class="qa">LIST</h1>
+        <h1 class="aq">MEMO</h1>
+     </div>
+    <div class="cont">
+        <h2 class="list">
+            <h2 class="ch">></h2>
+        </h2>
+        <ul class="memo">
+            <ol></ol>
+        </ul>
+    </div>
     </section>
-
-    <section class="footer">
-        <div class="dog">
-            <img src="img/강아지.png"></img>
-        </div>
-        <div class="ex">
-            계획을 다 지키면 하루가 웃어요!
-        </div>
-    </section>
-</section>
 
 </body>
 </html>
